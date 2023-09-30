@@ -9,7 +9,7 @@ app = Flask(__name__)
 def send_gpt_request(api_key, message):
     headers = {
         'Content-Type': 'application/json',
-        'Authorization': f'Bearer {api_key}'
+        'Authorization': f'Bearer {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}'
     }
 
     payload = {
